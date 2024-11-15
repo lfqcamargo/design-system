@@ -1,5 +1,5 @@
 {
-  "extends": "@daro/ts-config/base.json",
+  "extends": "@daro-ui/ts-config/base.json",
   "include": [
     "src"
   ]

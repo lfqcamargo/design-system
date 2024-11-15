@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Box, MultiStep, MultiStepProps } from '@daro/react'
+import { Box, MultiStep, MultiStepProps } from '@daro-ui/react'
 
 export default {
   title: 'Form/Multi Step',

@@ -1,4 +1,4 @@
-import { colors } from '@daro/tokens'
+import { colors } from '@daro-ui/tokens'
 import { getContrast } from 'polished'
 
 export function ColorsGrid() {

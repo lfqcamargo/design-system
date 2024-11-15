@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Box, Text, TextArea, TextAreaProps } from '@daro/react'
+import { Box, Text, TextArea, TextAreaProps } from '@daro-ui/react'
 
 export default {
   title: 'Form/Text Area',

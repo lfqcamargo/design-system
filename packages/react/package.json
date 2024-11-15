@@ -1,5 +1,5 @@
 {
-  "name": "@daro/react",
+  "name": "@daro-ui/react",
   "version": "1.0.0",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -14,9 +14,9 @@
   "license": "MIT",
   "description": "",
   "devDependencies": {
-    "@daro/eslint-config": "*",
-    "@daro/tokens": "*",
-    "@daro/ts-config": "*",
+    "@daro-ui/eslint-config": "*",
+    "@daro-ui/tokens": "*",
+    "@daro-ui/ts-config": "*",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
     "react": "^18.3.1",

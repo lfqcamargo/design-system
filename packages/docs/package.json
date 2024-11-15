@@ -1,5 +1,5 @@
 {
-  "name": "@daro/docs",
+  "name": "@daro-ui/docs",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -13,10 +13,10 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "@daro/eslint-config": "*",
-    "@daro/react": "*",
-    "@daro/tokens": "*",
-    "@daro/ts-config": "*",
+    "@daro-ui/eslint-config": "*",
+    "@daro-ui/react": "*",
+    "@daro-ui/tokens": "*",
+    "@daro-ui/ts-config": "*",
     "@storybook/addon-docs": "^8.4.2",
     "@storybook/mdx2-csf": "^1.1.0",
     "polished": "^4.3.1",

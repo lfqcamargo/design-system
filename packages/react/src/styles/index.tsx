@@ -6,7 +6,7 @@ import {
   lineHeights,
   radii,
   space,
-} from '@daro/tokens'
+} from '@daro-ui/tokens'
 import { createStitches, defaultThemeMap } from '@stitches/react'
 export const {
   styled,
