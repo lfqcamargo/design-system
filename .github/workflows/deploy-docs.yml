@@ -9,12 +9,20 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 18
+
       - run: npm ci
+
       - run: npm run build
+        env:
+          TURBO_TOKEN: jTSRmzvuw8FDUASrrAoWGgWx
+          TURBO_TEAM: lucas-projects-63c3133a
+
+
       - name: Deploy storybook
         working-directory: ./packages/docs
         run: npm run deploy-storybook -- --ci --existing-output-dir=storybook-static
