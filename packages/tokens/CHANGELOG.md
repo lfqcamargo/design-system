@@ -1,5 +1,11 @@
 # @daro-ui/tokens
 
+## 1.0.2
+
+### Patch Changes
+
+- 0e80086: Colors
+
 ## 1.0.1
 
 ### Patch Changes
