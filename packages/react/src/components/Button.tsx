@@ -27,43 +27,43 @@ export const Button = styled('button', {
     variant: {
       primary: {
         color: '$white',
-        background: '$ignite500',
+        background: '$color-primary-variant-500',
         '&:not(:disabled):hover': {
-          background: '$ignite300',
+          background: '$color-primary-variant-300',
         },
 
         '&:disabled': {
-          backgroundColor: '$gray200',
+          backgroundColor: '$color-primary-200',
         },
 
         '&:focus': {
-          boxShadow: '0 0 0 2px $colors$gray100',
+          boxShadow: '0 0 0 2px $colors$color-primary-100',
         },
       },
 
       secondary: {
-        color: '$ignite300',
-        border: '2px solid $ignite500',
+        color: '$color-primary-variant-300',
+        border: '2px solid $color-primary-variant-500',
 
         '&:not(:disabled):hover': {
-          background: '$ignite500',
+          background: '$color-primary-variant-500',
           color: '$white',
         },
 
         '&:disabled': {
-          color: '$gray200',
-          borderColor: '$gray200',
+          color: '$color-primary-200',
+          borderColor: '$color-primary-200',
         },
       },
       tertiary: {
-        color: '$gray100',
+        color: '$color-primary-100',
 
         '&:not(:disabled):hover': {
           color: '$white',
         },
 
         '&:disabled': {
-          color: '$gray600',
+          color: '$color-primary-600',
         },
       },
     },
