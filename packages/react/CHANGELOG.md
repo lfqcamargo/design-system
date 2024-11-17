@@ -1,5 +1,12 @@
 # @daro-ui/react
 
+## 1.0.2
+
+### Patch Changes
+
+- 0e80086: Colors
+- 3d30443: package
+
 ## 1.0.1
 
 ### Patch Changes
